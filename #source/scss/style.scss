@@ -54,6 +54,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	min-height: 100vh;
 	font-family: "IBM_Plex_Sans","Arial",sans-serif;
 	margin: auto;
+	background-color: #464A53;
 
 
 		@media screen and (min-width: 1380px) {
@@ -285,7 +286,78 @@ footer {
 
 
 
+.phone_reklama {
+	position: relative;
+}
+.section_item {}
+.footer_line {}
+.reklama_line {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+}
 
+.reklama_block_1 {
+	width: 45%;
+	flex-wrap: nowrap;
+	flex: 1 1 auto;
+}
+.text_reklama {}
+	.text_white {
+	color: #fff;
+	font-size: 16px;
+    font-family: "IBM_Plex_Sans","Arial",sans-serif;
+	}
+	.text_big {
+		font-size: 1.75em;
+		line-height: 40px;
+	}
+
+.reklama_block_2 {
+	align-self: flex-end;
+	order: 3;
+}
+.img_reklama {
+
+	position: absolute;
+	bottom: -3px;
+
+	@media screen and (max-width: 359px) {
+	left: 45%;
+	}
+}
+
+.reklama_block_3 {}
+.reklama_buttons {
+}
+styles_reklama_googlepaly {
+
+}
+.decorate_links {
+	text-decoration: none;
+	color: white;
+}
+.app_store_button {}
+.app_store_text {
+	display: flex;
+	width: 145px;
+	height: 52px;
+	background-color: #767d89;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.google_play_button {}
+.google_play_text {
+	display: flex;
+	width: 145px;
+	height: 52px;
+	background-color: #767d89;
+	justify-content: center;
+	align-items: center;
+}
 
 
 

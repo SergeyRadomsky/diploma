@@ -88,6 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 100vh;
   font-family: "IBM_Plex_Sans", "Arial", sans-serif;
   margin: auto;
+  background-color: #464A53;
 }
 @media screen and (min-width: 1380px) {
   .body_content {
@@ -365,6 +366,97 @@ footer {
 .text-small {
   font-size: 0.75rem;
   line-height: 1.2em;
+}
+
+.phone_reklama {
+  position: relative;
+}
+
+.reklama_line {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.reklama_block_1 {
+  width: 45%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.text_white {
+  color: #fff;
+  font-size: 16px;
+  font-family: "IBM_Plex_Sans", "Arial", sans-serif;
+}
+
+.text_big {
+  font-size: 1.75em;
+  line-height: 40px;
+}
+
+.reklama_block_2 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.img_reklama {
+  position: absolute;
+  bottom: -3px;
+}
+@media screen and (max-width: 359px) {
+  .img_reklama {
+    left: 45%;
+  }
+}
+
+.decorate_links {
+  text-decoration: none;
+  color: white;
+}
+
+.app_store_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 145px;
+  height: 52px;
+  background-color: #767d89;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.google_play_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 145px;
+  height: 52px;
+  background-color: #767d89;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /*
