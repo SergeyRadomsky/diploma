@@ -87,12 +87,12 @@ h1, h2, h3, h4, h5, h6 {
   min-width: 320px;
   min-height: 100vh;
   font-family: "IBM_Plex_Sans", "Arial", sans-serif;
+  margin: auto;
 }
 @media screen and (min-width: 1380px) {
   .body_content {
     min-width: 1380px;
     max-width: 1600px;
-    margin: auto;
   }
 }
 
@@ -209,6 +209,19 @@ footer {
 .section_item {
   margin-left: 24px;
   margin-right: 24px;
+}
+@media screen and (min-width: 768px) {
+  .section_item {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .section_item {
+    width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .footer_line {
