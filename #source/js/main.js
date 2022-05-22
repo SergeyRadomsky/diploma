@@ -415,7 +415,7 @@ accumulator.read(); // прибавит ввод prompt к текущему зн
 alert(accumulator.value); // выведет сумму этих значений
 */
 
-
+/*
 let readNumber = function() {
 let a = prompt('input VALUE', '');
   if (a == Number) {
@@ -431,7 +431,7 @@ let a = prompt('input VALUE', '');
 };
 
 readNumber();
-
+*/
 
 
 
