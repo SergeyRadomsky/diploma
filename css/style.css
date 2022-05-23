@@ -567,6 +567,15 @@ a > p:hover.google_play_text, a > p:hover.app_store_text {
           align-items: center;
 }
 
+.media_block1 {
+  margin-top: 20px;
+}
+
+.text_grey {
+  color: #767d89;
+  font-size: 16px;
+}
+
 /*
 
 .block_element {
