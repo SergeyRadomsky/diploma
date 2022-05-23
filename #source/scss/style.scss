@@ -55,6 +55,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	font-family: "IBM_Plex_Sans","Arial",sans-serif;
 	margin: auto;
 	background-color: #464A53;
+	overflow-x: hidden;
 
 
 		@media screen and (min-width: 1380px) {
@@ -142,6 +143,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 footer {
 	margin-top: 48px;
 	background-color: #464A53;
+/*	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+*/
 	@media screen and (min-width: 768px) and (max-width:1259px) {
 	    margin-top: 125px;
 	 }
@@ -164,7 +169,7 @@ footer {
 		margin-right: 25px;
 	}
 	@media screen and (min-width: 1260px) {
-		width: 1260px;
+		min-width: 90%;
 		display: flex;
 		justify-content: center;
 
@@ -324,12 +329,12 @@ footer {
 .reklama_block_2 {
 	width: 150px;
 	height: 0;
+	left: 300px;
 	display: flex;
 	align-self: flex-end;
 
-	@media screen and (min-width: 360px) {
-		margin-left: 50%;
-		margin-right: 35px;
+	@media screen and (min-width: 400px) {
+		margin-right: 65px;
 		height: 1px;
 		order: 1;
 		flex-direction: column;
@@ -337,8 +342,8 @@ footer {
 	}
 	@media screen and (min-width: 768px) {
 		align-self: flex-start;
-		margin-left: 50%;
-		margin-right: 35px;
+		margin-left: 3%;
+		margin-right: 55px;
 		order: 0;
 		left: 40px;
 

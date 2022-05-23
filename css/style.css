@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "IBM_Plex_Sans", "Arial", sans-serif;
   margin: auto;
   background-color: #464A53;
+  overflow-x: hidden;
 }
 @media screen and (min-width: 1380px) {
   .body_content {
@@ -190,6 +191,10 @@ h1, h2, h3, h4, h5, h6 {
 footer {
   margin-top: 48px;
   background-color: #464A53;
+  /*	display: flex;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  */
 }
 @media screen and (min-width: 768px) and (max-width: 1259px) {
   footer {
@@ -219,7 +224,7 @@ footer {
 }
 @media screen and (min-width: 1260px) {
   .section_item {
-    width: 1260px;
+    min-width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -437,16 +442,16 @@ footer {
 .reklama_block_2 {
   width: 150px;
   height: 0;
+  left: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-item-align: end;
       align-self: flex-end;
 }
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 400px) {
   .reklama_block_2 {
-    margin-left: 50%;
-    margin-right: 35px;
+    margin-right: 65px;
     height: 1px;
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -461,8 +466,8 @@ footer {
   .reklama_block_2 {
     -ms-flex-item-align: start;
         align-self: flex-start;
-    margin-left: 50%;
-    margin-right: 35px;
+    margin-left: 3%;
+    margin-right: 55px;
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
