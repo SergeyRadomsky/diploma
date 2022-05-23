@@ -165,12 +165,14 @@ footer {
 	}
 	@media screen and (min-width: 1260px) {
 		width: 1260px;
-		margin-left: auto;
-		margin-right: auto;
+		display: flex;
+		justify-content: center;
+
 	}
 }
 .footer_line {
 	border-bottom: 1px solid #767d89;
+	// min-width: 100%;
 }
 .contacts_line {
 	padding-top: 42px;
@@ -179,19 +181,17 @@ footer {
 	flex-direction: column;
 
 		@media screen and (min-width: 768px) {
+			min-width: 100%;
 		flex-direction: row;
-		// border: 1px solid white;
-		// justify-content: space-between;
 	}
 
-/*	@media screen and (min-width: 1380px) {
+	@media screen and (min-width: 1380px) {
 		min-width: 100%;
 		margin: auto;
 		display: inline-flex;
 		flex-direction: row;
-		border: 1px solid red;
 		justify-content: space-between;
-	}*/
+	}
 }
 
 
@@ -296,9 +296,16 @@ footer {
 	padding-bottom: 40px;
 	display: flex;
 	flex-direction: column;
+
+	@media screen and (min-width: 768px) {
+		flex-direction: row;
+		flex: 1 1 auto;
+	}
 }
 
 .reklama_block_1 {
+	display: flex;
+	justify-content: flex-start;
 	width: 45%;
 	flex-wrap: nowrap;
 	flex: 1 1 auto;
@@ -315,30 +322,65 @@ footer {
 	}
 
 .reklama_block_2 {
+	width: 150px;
+	height: 0;
+	display: flex;
 	align-self: flex-end;
-	order: 3;
+
+	@media screen and (min-width: 360px) {
+		margin-left: 50%;
+		margin-right: 35px;
+		height: 1px;
+		order: 1;
+		flex-direction: column;
+
+	}
+	@media screen and (min-width: 768px) {
+		align-self: flex-start;
+		margin-left: 50%;
+		margin-right: 35px;
+		order: 0;
+		left: 40px;
+
+	}
 }
 .img_reklama {
-
 	position: absolute;
-	bottom: -3px;
+	bottom: 0px;
+	width: 100px;
 
-	@media screen and (max-width: 359px) {
-	left: 45%;
+}
+
+.reklama_block_3 {
+	max-width: 100%;
+	z-index: 1;
+
+	@media screen and (min-width: 768px) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 }
 
-.reklama_block_3 {}
 .reklama_buttons {
+		max-width: 145px;
+
 }
+.app_store_button a:hover {
+	background-color: #E21A1A;
+}
+
 styles_reklama_googlepaly {
 
 }
 .decorate_links {
 	text-decoration: none;
 	color: white;
+	width: 100%;
 }
 .app_store_button {}
+
 .app_store_text {
 	display: flex;
 	width: 145px;
@@ -349,19 +391,25 @@ styles_reklama_googlepaly {
 	margin-right: 10px;
 	margin-bottom: 10px;
 }
-.google_play_button {}
-.google_play_text {
+a>p:hover.google_play_text, a>p:hover.app_store_text {
+	background-color: #E21A1A;
+}
+
+.google_play_button {
 	display: flex;
-	width: 145px;
+	width: 100%;
 	height: 52px;
 	background-color: #767d89;
 	justify-content: center;
 	align-items: center;
 }
-
-
-
-
+.google_play_text {
+	display: flex;
+	width: 145px;
+	height: 52px;
+	justify-content: center;
+	align-items: center;
+}
 
 
 
