@@ -1,4 +1,30 @@
 "use strict"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 let browser = prompt('Введите значение браузера', '');
 if (browser == 'Edge') {
